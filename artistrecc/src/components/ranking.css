@@ -1,0 +1,34 @@
+h3 {
+    margin: 0; /* Remove any margin */
+    padding: 10px; /* Remove any padding */
+  }
+
+
+@media (max-width: 600px) {
+    h1 {
+      font-size: auto;
+      color: white;
+    }
+  
+    .ol-container,
+    .textField-container {
+      max-width: 90%;
+    }
+  
+    .textField-container {
+      margin: 10px auto;
+    }
+  
+    .app-container{
+      color: white;
+    }
+  
+  }
+
+  h2 {
+    font-size: 4rem; /* This sets the font size to be 2 times the base font size */
+  }
+
+  h3 {
+    font-size: 3rem; /* This sets the font size to be 2 times the base font size */
+  }
