@@ -11,7 +11,7 @@ router.use(cors());
 
 var spotifyApi = new SpotifyWebApi({
   clientId: '9602c1d158b24f4dbb806eb8733e8e00',
-  clientSecret: 'XXX',
+  clientSecret: process.env.clientsecret,
   redirectUri: 'http://localhost:3000/'
 });
 
