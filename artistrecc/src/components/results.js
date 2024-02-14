@@ -46,15 +46,15 @@ function Results(props) {
   };
 
   const artists = [
-    {name: top1[1], image: top1[0],  song: Array.isArray(top1[2]) ? top1[2].join(" ") : top1[2], id:top1[3] },
-    { name: top2[1], image: top2[0], song: Array.isArray(top2[2]) ? top2[2].join(" ") : top2[2], id:top2[3]},
-    { name: top3[1], image: top3[0], song: Array.isArray(top3[2]) ? top3[2].join(" ") : top3[2], id:top3[3] }
+    {name: top1[1], image: top1[0],  song: Array.isArray(top1[2]) ? top1[2].join(", ") : top1[2], id:top1[3] },
+    { name: top2[1], image: top2[0], song: Array.isArray(top2[2]) ? top2[2].join(", ") : top2[2], id:top2[3]},
+    { name: top3[1], image: top3[0], song: Array.isArray(top3[2]) ? top3[2].join(", ") : top3[2], id:top3[3] }
   ];
 
 
   function getRelated(id) 
   {
-    fetch("http://localhost:9000/similarArtists",
+    fetch("https://hackify-production.up.railway.app/similarArtists",
     {
     headers: 
     {

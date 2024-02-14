@@ -38,7 +38,7 @@ function App() {
    function getSongs() 
   {
     setLoading(true);
-    fetch("http://localhost:9000/",
+    fetch("https://hackify-production.up.railway.app/",
     {
     headers: 
     {
@@ -56,7 +56,7 @@ function App() {
   
   function getTopImages() 
   {
-    fetch("http://localhost:9000/results",
+    fetch("https://hackify-production.up.railway.app/results",
     {
     headers: 
     {
@@ -74,7 +74,7 @@ function App() {
 
   function getTopImages2() 
   {
-    fetch("http://localhost:9000/results",
+    fetch("https://hackify-production.up.railway.app/results",
     {
     headers: 
     {
@@ -92,7 +92,7 @@ function App() {
 
   function getTopImages3() 
   {
-    fetch("http://localhost:9000/results",
+    fetch("https://hackify-production.up.railway.app/results",
     {
     headers: 
     {
